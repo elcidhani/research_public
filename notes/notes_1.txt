@@ -1,0 +1,42 @@
+Alpha
+
+- Alternative sector definitions
+- Update 13F metrics monthly
+- 13D/G Integration
+- 10K/NLP integration
+- ESG fund ratings
+- ETF holdings
+- BTFD
+
+Themes
+
+- Artificial intelligence
+- Collaborative robots
+- Gene sequencing 
+- Energy storage
+- Blockchain & cryptocurrencies
+
+Axioma
+
+Universe
+
+- Country limits
+- Regulatory lists
+- Exclude max utilisation 80% / DCBS <= 2 / Inventory data
+- Clean up ETFs (removed leveraged ETFs)
+- Remove European ADR (risk country)
+- Illiquid names
+
+Constraints
+
+- Min $25K position size
+- Maximise specific risk (85%) / minimise factor risk
+- Transaction cost manager: transaction cost and market impact (formula for each country)
+- No beta exposure (-5% to 5%), medium term momentum, residual volatility, no long / no short
+- Turnover constraint (10%)
+- Gross constraint ($100mm)
+- Trade-off between specific, gross and turnover
+- Unwind constraints
+- Industry (-50bps to 50bps), Style (momentum and value), ADV (no limit on the longs, max position size for hedges 20% ADV)
+- Single optimisation 5%, max position size 20%
+- Hard vs soft constraint
