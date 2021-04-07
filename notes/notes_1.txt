@@ -1,5 +1,7 @@
 Alpha
 
+https://github.com/stefan-jansen/machine-learning-for-trading
+
 - Alternative sector definitions
 - Update 13F metrics monthly
 - 13D/G Integration
