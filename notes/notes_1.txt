@@ -42,3 +42,25 @@ Constraints
 - Industry (-50bps to 50bps), Style (momentum and value), ADV (no limit on the longs, max position size for hedges 20% ADV)
 - Single optimisation 5%, max position size 20%
 - Hard vs soft constraint
+
+---
+
+Backtest
+- split backtest by long vs short returns
+- risk premium profile (sort by abs returns then cumsum)
+- risk exposure (against barra factor returns)
+
+Signal research
+- return decay plot (equal weighted per decile) across 1d, 1w, 1m etc...
+- signal/return plot (group by factor, weight avg return)
+- signal/return table (custom group by)
+- exposure by plot (visualise if top decile sector biased)
+- factor attribution
+- factor exposure plot
+- ic decay (i.e. ic with 1d, 1w, 1m etc... returns)
+- time series IC
+- mean monthly IC 
+- time series IC by group (e.g. market cap, liquidity buckets etc...): group by apply, spearman rank between corr and return. 
+- factor score distribution
+- factor rank autocorrelation
+- Return by quantiles / deciles
